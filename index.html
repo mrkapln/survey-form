@@ -22,7 +22,7 @@
             </h3>
         </header>
 
-        <section id="survey-form container">
+        <section id="survey-form-container">
             <div id="survey-form">
                 <form action="result.html" method="GET" target="_blank">
                     <div class="input-box">
@@ -48,7 +48,7 @@
                         <br>
                         <select name="content" id="dropdown">
                             <option value="movie">Movies</option>
-                            <option value="series">Series<option>                      
+                            <option value="series">Series</option>                      
                         </select>
                     </div>
 
@@ -67,6 +67,14 @@
                         value="romance" checked>
                         <label for="third-check">Romance</label>
                         <br>
+                        <input type="checkbox" name="movie" id="fourth-check"
+                        value="adventure">
+                        <label for="fourth-check">Adventure</label>
+                        <br>
+                        <input type="checkbox" name="movie" id="fifth-check"
+                        value="drama">
+                        <label for="fifth-check">Drama</label>
+                        <br>
                     </div>
 
                     <div class="input-box">
@@ -84,7 +92,7 @@
 
                     <div class="input-box">
                         <label for="feedback">Feedback</label>
-                        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="any comment"></textarea> 
+                        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Please write any comment!"></textarea> 
                     </div>
 
                     <div id="form-submit">
@@ -96,7 +104,7 @@
 
 
             </div>
-
+            <p id="last">All the greatest movies which are looking is here!</p>
         </section>
     </div>
     
